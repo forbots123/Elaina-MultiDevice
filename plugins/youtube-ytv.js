@@ -1,4 +1,4 @@
-let limit = 80
+let limit = 999
 import fetch from 'node-fetch'
 import { servers, ytv } from '../lib/y2mate.js'
 let handler = async(m, { conn, args, isPrems, isOwner }) => {
